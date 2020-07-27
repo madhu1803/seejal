@@ -28,9 +28,9 @@
 .accordion-section .panel-default .panel-title a:after {
   font-family: 'FontAwesome';
   font-style: normal;
-  font-size: 3rem;
+  font-size: 2.5rem;
   content: "\f106";
-  color: #1f7de2;
+  color: #F8CCCD;
   float: right;
   margin-top: -12px;
 }
