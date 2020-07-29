@@ -265,7 +265,7 @@
 
 
 	// magnific popup
-	$('.image-popup').magnificPopup({
+	$('.image-popup1').magnificPopup({
     type: 'image',
     closeOnContentClick: true,
     closeBtnInside: false,
@@ -277,7 +277,8 @@
       preload: [0,1] // Will preload 0 - before current, and 1 after the current image
     },
     image: {
-      verticalFit: true
+	  verticalFit: true,
+	  titleSrc: 'title'
     },
     zoom: {
       enabled: true,
